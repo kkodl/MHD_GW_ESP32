@@ -17,4 +17,12 @@ Rychlý start:
 - nahrajte program do nějakého ESP32 v okolí
 - spusťte to se zapnutou konzolí
 - pokud budete dostávat všude odpovědi "200", jděte do živého obrazu a najdete tam data pro vaši obrazovku
-- 
+- bavte se a experimentujte
+- ....jo a chovejme se na Golemio serveru slušně, ať nám nezabouchnou dveře, je to super, že jsou data takto k dispozici!
+
+  (nejsem programátor, tak buďte shovívaví)
+
+  Pozn.
+  # Ostatní města?
+  Nevím. Snažil jsem se najít Brno a Plzeň a pak jsem toho nechal, podle dostupných aplikací ta data existují, ale jsou za zdí. Pokud někdo najdete někde něco, ozvěte se, rád budu spolupracovat. Pokud něco objevím, bude to tady.
+  
