@@ -7,7 +7,7 @@ Budu rád, když to někdo uchopí a poběží dál.
 
 Primární důvod je mít na Živém obrazu odjezdy ze zastávek MHD a aktuální informace. Kód je okomentovaný a připojuji trochu teorie v dokumentaci. Tamtéž jsou screenshoty z toho, jak mám nastaven Živý obraz pro tuto konkrétní obrazovku.
 
-Rychlý start:
+## Rychlý start:
 - Přečtěte si dokumentaci (...já vím :)
 - Najděte si kódy zastávek, o které se zajímáte
 - získejte API token a zkopírujte ho do setup.h
@@ -22,7 +22,6 @@ Rychlý start:
 
   (nejsem programátor, tak buďte shovívaví)
 
-  Pozn.
   # Ostatní města?
   Nevím. Snažil jsem se najít Brno a Plzeň a pak jsem toho nechal, podle dostupných aplikací ta data existují, ale jsou za zdí. Pokud někdo najdete někde něco, ozvěte se, rád budu spolupracovat. Pokud něco objevím, bude to tady.
   
