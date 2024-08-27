@@ -78,7 +78,7 @@ void loop() {
 void Request_Train(){
   train_count = Number_Of_Trips.toInt();
   Serial.println("GET request to PID Golemio server");
-  String serverName = "https://api.golemio.cz/v2/pid/departureboards/?" + Stop_Ids + "&total=" + Number_Of_Trips + "&preferredTimezone=Europe%2FPrague";  // server address, must include querry
+  String serverName = "https://api.golemio.cz/v2/pid/departureboards?" + Stop_Ids + "&total=" + Number_Of_Trips + "&preferredTimezone=Europe%2FPrague";  // server address, must include querry
   Serial.println(serverName);
   http.begin(serverName.c_str());
   http.addHeader("Content-Type", "application/json; charset=utf-8");
