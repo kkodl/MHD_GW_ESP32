@@ -2,12 +2,12 @@
 ESP32 utility to extract Prague public transport departures and use it in your projects, like "zivy obraz"
 The rest is in Czec, as it is local content, specific to Prague transport system.
 
-Jedná se o "proof of concept". Software nemá ošetřeny chybové stavy, nakládání s proměnnými je rozmařilé a celkově je to rychlý bastl.
+Jedná se o "proof of concept". Rychlý bastl.
 Budu rád, když to někdo uchopí a poběží dál.
 
 Primární důvod je mít na Živém obrazu odjezdy ze zastávek MHD a aktuální informace. Kód je okomentovaný a připojuji trochu teorie v dokumentaci. Tamtéž jsou screenshoty z toho, jak mám nastaven Živý obraz pro tuto konkrétní obrazovku.
 
-verze 04:
+NEW: verze 04:
 - zobrazuje hvězdičku před číslem linky, pokud je spoj klimatizován
 - v dotazu na Golemio je časové okno na dotaz rozšířeno na 5h, aby se před půlnocí zobrazily časné ranní spoje (případně si upravte, pokud 5h nestačí)
 - mírně vylepšeno zacházení s chybami
