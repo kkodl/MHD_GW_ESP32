@@ -7,6 +7,13 @@ Budu rád, když to někdo uchopí a poběží dál.
 
 Primární důvod je mít na Živém obrazu odjezdy ze zastávek MHD a aktuální informace. Kód je okomentovaný a připojuji trochu teorie v dokumentaci. Tamtéž jsou screenshoty z toho, jak mám nastaven Živý obraz pro tuto konkrétní obrazovku.
 
+verze 04:
+- zobrazuje hvězdičku před číslem linky, pokud je spoj klimatizován
+- v dotazu na Golemio je časové okno na dotaz rozšířeno na 5h, aby se před půlnocí zobrazily čsné ranní spoje (případně si upravte, pokud 5h nestačí)
+- mírně vylepšeno zacházení s chybami
+- pořád je to horkou jehlou
+- nevyřešený problém: První GET vrací chybu -2. Nevím čím to je a nepodařilo se to zatím odstranit. Řeším to tak, že pokud tato situace natane, počkám 2s a zeptám se znova, to zatím funguje. Problém je asi někde v Httpclient.h a/nebo také možná v tom, jak s ním zacházím.
+
 ## Rychlý start:
 - Přečtěte si dokumentaci (...já vím :)
 - Najděte si kódy zastávek, o které se zajímáte
