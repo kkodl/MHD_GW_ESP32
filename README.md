@@ -9,9 +9,9 @@ Primární důvod je mít na Živém obrazu odjezdy ze zastávek MHD a aktuáln�
 
 verze 04:
 - zobrazuje hvězdičku před číslem linky, pokud je spoj klimatizován
-- v dotazu na Golemio je časové okno na dotaz rozšířeno na 5h, aby se před půlnocí zobrazily čsné ranní spoje (případně si upravte, pokud 5h nestačí)
+- v dotazu na Golemio je časové okno na dotaz rozšířeno na 5h, aby se před půlnocí zobrazily časné ranní spoje (případně si upravte, pokud 5h nestačí)
 - mírně vylepšeno zacházení s chybami
-- pořád je to horkou jehlou
+- pořád je to šito horkou jehlou, lepší verze bude, až přijdu na řešení problému viz níže
 - nevyřešený problém: První GET vrací chybu -2. Nevím čím to je a nepodařilo se to zatím odstranit. Řeším to tak, že pokud tato situace natane, počkám 2s a zeptám se znova, to zatím funguje. Problém je asi někde v Httpclient.h a/nebo také možná v tom, jak s ním zacházím.
 
 ## Rychlý start:
