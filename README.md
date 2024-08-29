@@ -7,22 +7,22 @@ Budu rád, když to někdo uchopí a poběží dál.
 
 Primární důvod je mít na Živém obrazu odjezdy ze zastávek MHD a aktuální informace. Kód je okomentovaný a připojuji trochu teorie v dokumentaci. Tamtéž jsou screenshoty z toho, jak mám nastaven Živý obraz pro tuto konkrétní obrazovku.
 
-NEW: verze 04:
+NEW: verze 05:
 - zobrazuje hvězdičku před číslem linky, pokud je spoj klimatizován
-- v dotazu na Golemio je časové okno na dotaz rozšířeno na 5h, aby se před půlnocí zobrazily časné ranní spoje (případně si upravte, pokud 5h nestačí)
+- v dotazu na Golemio je časové okno na dotaz rozšířeno na 6h, aby se před půlnocí zobrazily časné ranní spoje
 - mírně vylepšeno zacházení s chybami
-- pořád je to šito horkou jehlou, lepší verze bude, až přijdu na řešení problému viz níže
-- nevyřešený problém: První GET vrací chybu -2. Nevím čím to je a nepodařilo se to zatím odstranit. Řeším to tak, že pokud tato situace natane, počkám 2s a zeptám se znova, to zatím funguje. Problém je asi někde v Httpclient.h a/nebo také možná v tom, jak s ním zacházím.
+- komfortnější nastavování zastávek a parametrů - přesunuto do setup.h
+- volba, zda chceme dynamickou či fixní IP
 
 ## Rychlý start:
 - Přečtěte si dokumentaci (...já vím :)
-- Najděte si kódy zastávek, o které se zajímáte
+- Najděte si kódy zastávek, o které se zajímáte, případně udělejte první pokus s těmi vyplněnými
 - získejte API token a zkopírujte ho do setup.h
-- pokud nepotřebujete 3 zastávky, ale třeba jen jednu, smažte část příkazů v hlavní smyčce, možná by stačilo nastavit proměnnou Number_Of_Trips = "0" u druhé a třetí zastávky - nezkoušel jsem co tomu bude Golemio říkat
+- pokud nepotřebujete 3 zastávky, ale třeba jen jednu, upravte setup.h
 - nastavte si WiFi údaje
 - doplňte token pro živý obraz
-- nahrajte program do nějakého ESP32 v okolí
-- spusťte to se zapnutou konzolí
+- najděte v šupleti nějaké ESP32
+- nahrajte program a spusťte to se zapnutou konzolí
 - pokud budete dostávat všude odpovědi "200", jděte do živého obrazu a najdete tam data pro vaši obrazovku
 - bavte se a experimentujte
 - ....jo a chovejme se na Golemio serveru slušně, ať nám nezabouchnou dveře, je to super, že jsou data takto k dispozici!
