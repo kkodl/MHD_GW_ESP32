@@ -1,6 +1,6 @@
 # MHD_GW_ESP32
 
->> Old version. Please use rather MHD_GW_WWW <<<
+ >> Old version. Please use rather MHD_GW_WWW <<<
 
 ESP32 utility to extract Prague public transport departures and use it in your projects, like "zivy obraz"
 The rest is in Czec, as it is local content, specific to Prague transport system.
